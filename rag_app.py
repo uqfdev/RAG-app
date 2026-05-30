@@ -88,7 +88,7 @@ def main():
 
         if st.button("Submit and Build Retriever", type="primary"):
             if not pdf_docs:
-                st.warning("⚠️ Please upload at least one PDF file before submitting.")
+                st.warning("Please upload at least one PDF file before submitting.")
             else:
                 with st.spinner("Loading PDFs and building embeddings..."):
                     try:
